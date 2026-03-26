@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Register() {
-  const API = "http://localhost:5000/api/users";
+  const API = "https://demo-hkab.onrender.com/api/users";
 
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
